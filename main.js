@@ -16,7 +16,7 @@ function createWindow() {
   mainWindow.loadURL('https://attend.honordubai.com');
 
   // Remove the default menu bar
-  Menu.setApplicationMenu(null);
+  // Menu.setApplicationMenu(null);
 
   mainWindow.on('closed', function () {
     mainWindow = null;
